@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@400;500&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   list-style: none;
-  vertical-align: baseline;
 }
 
 body {
@@ -27,17 +26,57 @@ body {
 
 .quote-text {
   text-align: center;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 1.9em;
+  font-weight: 500;
+}
+
+.quote-text i {
+  font-size: 0.8em;
 }
 
 .quote-text span {
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.quote-author {
+  text-align: right;
+  padding-top: 25px;
+  font-size: 1.4em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 35px;
+}
+
+.button {
+  height: 38px;
+  background-color: #1EFFBC;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-twitter {
+  position: relative;
+  bottom: -2px;
+  padding: 6px 18px 6px 18px;
+  font-size: 1.4em;
+}
+
+#new-quote {
+  font-family: 'Faustina', serif;
+  padding: 6px 18px 6px 18px;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .footer {
   display: block;
   text-align: center;
   margin: 15px auto;
+  font-size: 0.9em;
 }
